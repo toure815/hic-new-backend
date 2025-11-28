@@ -1,5 +1,6 @@
-import backend from "~backend/client";
+import Client, { Local } from "../client";
 import { useAuth } from "../contexts/AuthContext";
+const backend = new Client(Local);
 
 export function useBackend() {
   const { getIdToken } = useAuth();

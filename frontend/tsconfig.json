@@ -17,20 +17,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./*"
-      ],
-      "~backend/*": [
-        "../backend/*"
-      ],
-      "~backend/client": [
-        "./client.ts"
-      ],
-      "~encore/*": [
-        "../backend/encore.gen/*"
-      ]
+      "@/*": ["./*"]
+      // ❌ Removed "~backend/*"
+      // ❌ Removed "~backend/client"
+      // ❌ Removed "~encore/*"
     }
   },
   "include": [
