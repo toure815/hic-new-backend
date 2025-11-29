@@ -1,0 +1,26 @@
+{
+  "name": "hic-new-backend",
+  "version": "1.0.0",
+  "description": "This is a RESTful API Starter with a single Hello World API endpoint.",
+  "main": "index.js",
+  "scripts": {
+    "build": "encore build",
+    "dev": "encore run",
+    "test": "encore \"echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toure815/hic-new-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/toure815/hic-new-backend/issues"
+  },
+  "homepage": "https://github.com/toure815/hic-new-backend#readme",
+  "dependencies": {
+    "encore.dev": "^1.52.1"
+  }
+}
