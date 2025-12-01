@@ -1,10 +1,13 @@
+# Ignore the entire frontend app
 frontend/
-frontend/node_modules/
-frontend/dist/
+frontend/**
 
-.vscode/
-.DS_Store/
-
+# Ignore build artifacts
+**/dist/
+**/node_modules/
 **/*.map
 
+# Ignore editor + OS files
+.vscode/
+.DS_Store/
 
