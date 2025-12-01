@@ -1,15 +1,9 @@
 {
-  "name": "hic-new-backend",
+  "name": "backend",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "build": "encore build",
-    "dev": "encore run",
-    "test": "echo \"No tests configured\""
-  },
   "dependencies": {
-    "encore.dev": "^1.52.1",
     "jsonwebtoken": "^9.0.2"
   }
 }
